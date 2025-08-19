@@ -1,0 +1,42 @@
+<resources>
+    <!-- App Identity -->
+    <string name="app_name">Park Now</string>
+    <string name="welcome">Welcome to Park Now</string>
+    <string name="tagline">“Find parking faster, drive smarter”</string>
+
+    <!-- Authentication -->
+    <string name="login">Log In</string>
+    <string name="signup">Sign Up</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="name">Full Name</string>
+
+    <!-- Profile -->
+    <string name="edit_profile">Edit Profile</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="user_profile">User Profile</string>
+
+    <!-- Reservation -->
+    <string name="reserve">Reserve Spot</string>
+    <string name="my_reservations">My Reservations</string>
+    <string name="parking_details">Parking Details</string>
+
+    <!-- Settings -->
+    <string name="settings">App Settings</string>
+    <string name="logout">Log Out</string>
+
+    <!-- Map & Location -->
+    <string name="map_title">Nearby Parking Spots</string>
+    <string name="google_maps_key">AIzaSyBjqwkoqrtXGSyOqKrPHu9_7291h6M2V2c</string>
+
+    <!-- General UI -->
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="loading">Loading...</string>
+    <string name="error_occurred">An error occurred</string>
+    <string name="navigate">Navigate</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header image</string>
+</resources>

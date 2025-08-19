@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Theme Colors (Dark Mode Adjustments) -->
+    <color name="primaryColor">#64B5F6</color>         <!-- Lighter Blue for dark mode primary -->
+    <color name="primaryDark">#2196F3</color>          <!-- Blue for dark mode variant -->
+    <color name="accentColor">#4DD0E1</color>          <!-- Lighter Cyan Accent -->
+
+    <!-- Background & UI Colors (Dark Mode Adjustments) -->
+    <color name="backgroundLight">#121212</color>      <!-- Very Dark Grey Background -->
+    <color name="surface">#1E1E1E</color>              <!-- Dark Grey for Cards / Surfaces -->
+
+    <!-- Text Colors (Dark Mode Adjustments) -->
+    <color name="textPrimary">#E0E0E0</color>          <!-- Light Grey for primary text -->
+    <color name="textSecondary">#BDBDBD</color>        <!-- Mid Light Grey -->
+    <color name="textGray">#9E9E9E</color>             <!-- Slightly adjusted if needed -->
+
+    <!-- Buttons / UI States (Dark Mode Adjustments) -->
+    <color name="successColor">#81C784</color>         <!-- Lighter Green for success -->
+    <color name="errorColor">#EF9A9A</color>           <!-- Lighter Red for errors -->
+    <color name="warningColor">#FFEB3B</color>         <!-- Yellow for warnings in dark mode -->
+
+    <!-- Extra Utility Colors (Dark Mode Adjustments) -->
+    <color name="dividerColor">#424242</color>         <!-- Darker line dividers -->
+    <color name="grayLight">#2C2C2C</color>            <!-- Darker background blocks -->
+
+    <!-- System Colors (should not change with theme) -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="teal_700">#018786</color>
+
+    <!-- Mapped colors for Material Theme (Dark Mode) -->
+    <color name="colorPrimary">@color/primaryColor</color>
+    <color name="colorPrimaryVariant">@color/primaryDark</color>
+    <color name="colorOnPrimary">@color/black</color> <!-- Dark text on primary background in dark mode -->
+
+    <color name="colorSecondary">@color/accentColor</color>
+    <color name="colorSecondaryVariant">@color/accentColor</color>
+    <color name="colorOnSecondary">@color/black</color> <!-- Dark text on secondary background in dark mode -->
+
+    <color name="colorSurface">@color/surface</color>
+    <color name="colorOnSurface">@color/textPrimary</color>
+
+    <color name="colorError">@color/errorColor</color>
+    <color name="colorOnError">@color/black</color> <!-- Dark text on error background in dark mode -->
+
+    <color name="colorBackground">@color/backgroundLight</color>
+    <color name="colorOnBackground">@color/textPrimary</color>
+
+    <!-- Specific component colors (using existing definitions) -->
+    <color name="text_color_primary">@color/textPrimary</color>
+    <color name="text_color_secondary">@color/textSecondary</color>
+    <color name="icon_color">@color/textSecondary</color>
+    <color name="divider_color">@color/dividerColor</color>
+    <color name="card_background">@color/surface</color>
+    <color name="button_background">@color/primaryColor</color>
+    <color name="button_text_color">@color/black</color> <!-- Dark text on buttons in dark mode -->
+    <color name="input_background">@color/grayLight</color>
+    <color name="input_text_color">@color/textPrimary</color>
+    <color name="top_app_bar_background">@color/surface</color> <!-- Using surface for app bar in dark mode for softer look -->
+    <color name="top_app_bar_text_color">@color/textPrimary</color>
+    <color name="bottom_nav_background">@color/surface</color>
+    <color name="toggle_button_text_color">@color/black</color> <!-- Dark text on toggle button in dark mode -->
+
+    <!-- Rating Bar Colors -->
+    <color name="rating_star_filled">@color/warningColor</color>
+    <color name="rating_star_empty">@color/textGray</color>
+</resources>

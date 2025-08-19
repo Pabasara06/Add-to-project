@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Theme Colors -->
+    <color name="primaryColor">#0D47A1</color>         <!-- Deep Blue -->
+    <color name="primaryDark">#002171</color>          <!-- Very Dark Blue -->
+    <color name="accentColor">#00BCD4</color>          <!-- Cyan Accent -->
+
+    <!-- Background & UI Colors -->
+    <color name="backgroundLight">#F5F7FA</color>      <!-- Light Gray-White -->
+    <color name="surface">#FFFFFF</color>              <!-- Cards / Surfaces -->
+
+    <!-- Text Colors -->
+    <color name="textPrimary">#212121</color>          <!-- Almost Black -->
+    <color name="textSecondary">#757575</color>        <!-- Mid Gray -->
+    <color name="textGray">#9E9E9E</color>             <!-- Light Gray Text -->
+
+    <!-- Buttons / UI States -->
+    <color name="successColor">#4CAF50</color>         <!-- Green for success -->
+    <color name="errorColor">#F44336</color>           <!-- Red for errors -->
+    <color name="warningColor">#FFC107</color>         <!-- Amber for warnings -->
+
+    <!-- Extra Utility Colors -->
+    <color name="dividerColor">#E0E0E0</color>         <!-- Light line dividers -->
+    <color name="grayLight">#ECEFF1</color>            <!-- Light background blocks -->
+
+    <!-- System Colors (should not change with theme) -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="teal_700">#018786</color>
+
+    <!-- Mapped colors for Material Theme (Light Mode) -->
+    <color name="colorPrimary">@color/primaryColor</color>
+    <color name="colorPrimaryVariant">@color/primaryDark</color>
+    <color name="colorOnPrimary">@color/white</color> <!-- Light text on primary background -->
+
+    <color name="colorSecondary">@color/accentColor</color>
+    <color name="colorSecondaryVariant">@color/accentColor</color>
+    <color name="colorOnSecondary">@color/black</color> <!-- Dark text on secondary background -->
+
+    <color name="colorSurface">@color/surface</color>
+    <color name="colorOnSurface">@color/textPrimary</color>
+
+    <color name="colorError">@color/errorColor</color>
+    <color name="colorOnError">@color/white</color> <!-- Light text on error background -->
+
+    <color name="colorBackground">@color/backgroundLight</color>
+    <color name="colorOnBackground">@color/textPrimary</color>
+
+    <!-- Specific component colors (using existing definitions) -->
+    <color name="text_color_primary">@color/textPrimary</color>
+    <color name="text_color_secondary">@color/textSecondary</color>
+    <color name="icon_color">@color/textSecondary</color>
+    <color name="divider_color">@color/dividerColor</color>
+    <color name="card_background">@color/surface</color>
+    <color name="button_background">@color/primaryColor</color>
+    <color name="button_text_color">@color/white</color> <!-- Light text on buttons in light mode -->
+    <color name="input_background">@color/grayLight</color>
+    <color name="input_text_color">@color/textPrimary</color>
+    <color name="top_app_bar_background">@color/primaryColor</color>
+    <color name="top_app_bar_text_color">@color/white</color>
+    <color name="bottom_nav_background">@color/surface</color>
+    <color name="toggle_button_text_color">@color/white</color> <!-- Light text on toggle button in light mode -->
+
+    <!-- Rating Bar Colors -->
+    <color name="rating_star_filled">@color/warningColor</color>
+    <color name="rating_star_empty">@color/textGray</color>
+
+</resources>

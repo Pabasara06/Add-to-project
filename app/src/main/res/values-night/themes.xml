@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for dark mode. -->
+    <style name="Theme.ParkNow" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="colorError">@color/colorError</item>
+        <item name="colorOnError">@color/colorOnError</item>
+        <item name="android:textColorPrimary">@color/text_color_primary</item>
+        <item name="android:textColorSecondary">@color/text_color_secondary</item>
+
+        <!-- Material Components specific styles for dark mode -->
+        <item name="materialButtonStyle">@style/Widget.App.Button</item>
+        <item name="textInputStyle">@style/Widget.App.TextInputLayout</item>
+        <item name="toolbarStyle">@style/Widget.App.Toolbar</item> <!-- Changed from MaterialComponents.Toolbar.Primary -->
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
+        <item name="cardViewStyle">@style/Widget.MaterialComponents.CardView</item>
+        <item name="ratingBarStyle">@style/Widget.App.RatingBar</item>
+    </style>
+
+    <!-- Style for primary buttons (dark mode) -->
+    <style name="Widget.App.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="backgroundTint">@color/button_background</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Button</item>
+    </style>
+
+    <!-- Style for text input layouts (dark mode) -->
+    <style name="Widget.App.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/colorPrimary</item>
+        <item name="hintTextColor">@color/text_color_secondary</item>
+        <item name="android:textColorHint">@color/text_color_secondary</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <!-- Style for Bottom Navigation View (dark mode) -->
+    <style name="Widget.App.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="itemIconTint">@color/bottom_nav_item_colors</item>
+        <item name="itemTextColor">@color/bottom_nav_item_colors</item>
+        <item name="android:background">?attr/colorSurface</item>
+        <item name="itemRippleColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Widget.App.RatingBar" parent="Widget.AppCompat.RatingBar">
+        <item name="android:progressTint">@color/rating_star_filled</item>
+        <item name="android:progressBackgroundTint">@color/rating_star_empty</item>
+        <item name="android:secondaryProgressTint">@android:color/transparent</item>
+    </style>
+
+    <!-- Style for Top App Bar (Dark Mode) -->
+    <style name="Widget.App.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="titleTextColor">@color/top_app_bar_text_color</item>
+        <item name="navigationIconTint">@color/top_app_bar_text_color</item>
+        <item name="android:background">@color/top_app_bar_background</item>
+    </style>
+
+</resources>
